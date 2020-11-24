@@ -8,9 +8,13 @@
 	1.使用命令git add <file>，注意，可反复多次使用，添加多个文件；
 	2.使用命令git commit -m <message>，完成。
 
-2)
+2)查看仓库状态：   git status
 
-
+3)文件修改之后都需要两步：
+	git add 文件名
+	git commit -m "修改内容"
+要随时掌握工作区的状态，使用git status命令。
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
 
 
 
